@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", init);
             let img = document.createElement("img");
             img.src = content.data[i].images.downsized.url;
             fig.appendChild(img);
-            output.insertAdjacentElement("afterbegin", fig);
+            output.appendChild(fig);
             }
             document.search.value = "";
         })
